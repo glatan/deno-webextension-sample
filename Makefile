@@ -4,4 +4,4 @@ build:
 
 .PHONY: pack
 pack: build
-	@zip -j -x='pkg/.gitkeep' deno-webextension-sample.zip pkg/*
+	@zip -j -x='pkg/.gitkeep' deno-webextension-template.zip pkg/*
